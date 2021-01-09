@@ -1,0 +1,30 @@
+{
+    "Basic CPP Template":{
+        "prefix": "!iostream",
+        "body": [
+            "#include<iostream>",
+            "using namespace std;",
+
+            "int main()",
+            "{",
+            "${1:Code}",
+            "}"
+        ],
+        "description": "Basic cpp template for starter"
+    },
+
+    "All Libraries Template":{
+        "prefix": "!bits",
+        "body": [
+            "#include<bits/stdc++.h>",
+            "using namespace std;",
+            "#define ll long long",
+
+            "int main()",
+            "{",
+            "${1:Code}",
+            "}"
+        ],
+        "description": "Include bits library in file"
+    }
+}

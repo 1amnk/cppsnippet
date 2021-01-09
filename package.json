@@ -1,0 +1,25 @@
+{
+    "name": "cppsnippet",
+    "displayName": "cppSnippet",
+    "description": "Fast code snippet for cpp",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/1amnk/cppsnippet"
+    },
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "cpp",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
